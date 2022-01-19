@@ -4,4 +4,3 @@ package = 'netlify-plugin-contextual-env'
   mode = 'prefix'
 
 [[plugins]]
-package = "netlify-plugin-inline-functions-env"

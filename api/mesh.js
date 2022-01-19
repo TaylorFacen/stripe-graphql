@@ -31,7 +31,7 @@ export default async (req, res) => {
       context,
       introspection: true, // Required for Hasura Remote Schema introspection
       playground: true, // Optional: Default is `false` in production
-    }).createHandler({ path: "/functions/mesh" })(req, res);
+    }).createHandler({ path: "/api/mesh" })(req, res);
   };
   
   export const config = {
